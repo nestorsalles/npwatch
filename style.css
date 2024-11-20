@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+header {
+    background-color: #e5e5e0 ;
+    color: #97661A ;
+    height: 120px; /* Define a altura fixa do cabeçalho */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-title {
+    margin-right: 10px; /* Reduz a margem entre a logo e o título */
+    display: flex;
+    align-items: center;
+    justify-content: auto;
+}
+.logo-title img {
+    height: 150px; /* Logomarca maior */
+    margin-right: 15px;
+}
+.logo-title h1 {
+    font-size: 18px;
+    margin: 0;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+nav ul li { /* Espaçamento do menu */
+    margin: 0 15px;
+}
+nav ul li a { /* Menu */
+    color: #97661A;
+    text-decoration: none;
+    font-size: 16px;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+.banner {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #E3C06F;
+    color: #583001;
+}
+.banner h2 {
+    margin: 0;
+    font-size: 36px;
+}
+.products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);  /* Aqui 4 colunas fixas */
+    gap: 20px;
+    padding: 20px;
+}
+.product {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.product img {
+    max-width: 55%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.product h2 {
+    font-family: 'Old Standard TT', serif;
+    font-size: 18px;
+    margin: 10px 0;
+}
+.product-description {
+    text-align: left;
+    color: #555;
+    font-size: 17px;
+    margin-top: 10px;
+}        
+.product p {
+    font-family: 'Old Standard TT', serif;
+    color: #555;
+    margin-bottom: 10px;
+}
+.product button {
+    background-color: #d2b82e   ;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.product button:hover {
+    background-color: #9B6A1E ;
+    color: #000000
+}
+.heart {
+    color: red; /* Cor do coração */
+    font-size: 24px;
+    padding: 5px; /* Adiciona um espaço ao redor do coração */
+    border-radius: 20%; /* Deixa o fundo redondo */
+}
+.footer-link {
+    text-decoration: none; /* Remove o sublinhado padrão */
+    color: inherit; /* Herda a cor do texto ao redor */
+    transition: color 0.3s ease; /* Suaviza a transição da cor */
+}
+
+.footer-link:hover {
+    color: blue; /* Muda para azul ao passar o mouse */
+}
+footer {
+    text-align: center;
+    height: 80px;
+    background-color: #E3C06F;
+    color: #583001;
+    margin-top: 20px;
+    padding-top: 1px; /* Espaço interno no topo */
+    padding-bottom: 10px; /* Espaço interno no rodapé */
+    line-height: 1.0; /* Controla o espaçamento entre os textos */
+}
